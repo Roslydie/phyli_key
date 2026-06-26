@@ -10,7 +10,7 @@
 								<div class="header-row justify-content-between">
 									<div class="header-logo z-index-2 col-lg-2 px-0">
 										<RouterLink to="/">
-											<img alt="Porto" width="123" height="48" data-sticky-width="82" data-sticky-height="40" data-sticky-top="84" src="/assets/img/demos/auto-services/log.png" data-img-suffix-primary="">
+											<img alt="Porto" width="123" height="68" data-sticky-width="82" data-sticky-height="60" data-sticky-top="84" src="/assets/img/demos/auto-services/log.png" data-img-suffix-primary="">
 										</RouterLink>
 									</div>
 									<div class="header-nav header-nav-links justify-content-end pe-lg-4 me-lg-3">
@@ -39,7 +39,7 @@
 									<ul class="header-extra-info custom-left-border-1 d-none d-xl-block">
 										<li class="d-none d-sm-inline-flex ms-0">
 											<div class="header-extra-info-icon">
-												<i class="icons icon-phone text-3 text-color-dark position-relative top-3"></i>
+												<i class="icons icon-phone text-3 position-relative top-3" style="color: white;"></i>
 											</div>
 											<div class="header-extra-info-text btn btn-primary px-4 py-2">
     <span class="d-block text-white">CALL US NOW</span>
@@ -92,8 +92,8 @@ header,
 
 .header-logo img {
   width: 170px;
-  height: auto;
-  max-height: 64px;
+ 
+  height: 100px;
 }
 
 .nav-link {
