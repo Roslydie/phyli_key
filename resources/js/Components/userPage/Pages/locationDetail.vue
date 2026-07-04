@@ -72,7 +72,7 @@
             <div class="services-wrapper">
               <div class="services-header mb-5">
                 <h2 class="font-weight-bold mb-3">Available Services</h2>
-                <p class="text-muted">Professional locksmith services tailored for {{ currentLocation?.name }}</p>
+                <p class="lead">Professional locksmith services tailored for {{ currentLocation?.name }}</p>
               </div>
 
               <div class="row g-4">
@@ -85,16 +85,12 @@
                     </div>
                     <div class="service-body p-4">
                       <h3 class="font-weight-bold mb-2">{{ service.name }}</h3>
-                      <p class="text-muted mb-3">{{ service.description }}</p>
+                      <p class="mb-3">{{ service.description }}</p>
                       <ul class="service-features small">
                         <li v-for="feature in service.features" :key="feature" class="mb-2">
                           <i class="fas fa-check text-warning me-2"></i>{{ feature }}
                         </li>
                       </ul>
-                      <div class="service-price mt-3 pt-3 border-top">
-                        <small class="text-muted">Starting from</small>
-                        <p class="font-weight-bold text-warning mb-0">{{ service.price }}</p>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -256,8 +252,8 @@ onMounted(() => {
 }
 
 .location-badge .badge {
-  font-size: 0.85rem;
-  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
   font-weight: 600;
 }
 
@@ -267,11 +263,11 @@ onMounted(() => {
 }
 
 .contact-item strong {
-  font-size: 0.95rem;
+  font-size: 1.1rem;
 }
 
 .contact-item p {
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   color: #374151;
 }
 
@@ -279,6 +275,8 @@ onMounted(() => {
   color: #0f172a;
   font-weight: 500;
   transition: color 0.3s ease;
+  font-size: 1.05rem;
+  display: inline-block;
 }
 
 .contact-item a:hover {
@@ -290,23 +288,23 @@ onMounted(() => {
 }
 
 .location-hours strong {
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   color: #0f172a;
 }
 
 .location-hours p {
   margin-bottom: 0.5rem;
   color: #4b5563;
-  font-size: 0.9rem;
+  font-size: 1.05rem;
 }
 
 .services-header h2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #0f172a;
 }
 
 .services-header p {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .service-card {
@@ -351,7 +349,7 @@ onMounted(() => {
 }
 
 .service-body h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #0f172a;
   transition: color 0.3s ease;
 }
@@ -361,7 +359,7 @@ onMounted(() => {
 }
 
 .service-body p {
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   line-height: 1.6;
 }
 
@@ -376,19 +374,7 @@ onMounted(() => {
   display: flex;
   align-items: flex-start;
   margin-bottom: 0.5rem;
-}
-
-.service-price {
-  margin-top: auto;
-}
-
-.service-price small {
-  display: block;
-  font-size: 0.85rem;
-}
-
-.service-price p {
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
 .cta-section {
@@ -416,6 +402,10 @@ onMounted(() => {
 
 .transition-all {
   transition: all 0.3s ease;
+}
+
+.small {
+  font-size: 1.05rem !important;
 }
 
 /* Responsive */

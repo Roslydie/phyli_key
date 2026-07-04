@@ -1,4 +1,6 @@
 import '../css/app.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@tabler/icons-webfont/dist/tabler-icons.min.css';
 import './bootstrap';
 
 import { createApp } from 'vue';

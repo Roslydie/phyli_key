@@ -10,9 +10,9 @@
     <ul class="nav-list">
       <li class="nav-title">Main</li>
       <li><a class="nav-link active" href="#"><i class="ti ti-home"></i><span>Dashboard</span></a></li>
-      <li><a class="nav-link" href="#"><i class="ti ti-box-seam"></i><span>Inventory</span></a></li>
-      <li><a class="nav-link" href="#"><i class="ti ti-plus"></i><span>Add Product</span></a></li>
-      <li><a class="nav-link" href="#"><i class="ti ti-receipt"></i><span>Reports</span></a></li>
+      <li><RouterLink to="/admin/testimonial" class="nav-link"><i class="ti ti-users"></i><span>Testimonials</span></RouterLink></li>
+      <li><RouterLink to="/admin/users" class="nav-link"><i class="ti ti-users"></i><span>Users</span></RouterLink></li>
+
       <li><a class="nav-link" href="#"><i class="ti ti-alert-circle"></i><span>404 Error</span></a></li>
       <li><a class="nav-link" href="#"><i class="ti ti-file-text"></i><span>Docs</span></a></li>
 

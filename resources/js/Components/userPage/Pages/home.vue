@@ -78,107 +78,100 @@
                 <h2 class="font-weight-bold text-8 mb-0">Why Choose Us</h2>
                 <span class="ms-4" style="height:2px;width:120px;background:#d4af37;"></span>
             </div>
+            <p class=" text-lg mt-3">Philadelphia's Most Trusted Locksmith Service Since Our Founding</p>
         </div>
 
         <div class="row g-4">
 
             <!-- Card 1 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="why-card text-center h-100">
-
-                    <div class="why-icon">
-                        <i class="fas fa-stopwatch fa-3x"></i>
+            <div class="col-md-6 col-lg-6">
+                <div class="why-card-enhanced h-100">
+                    <div class="why-card-header">
+                        <div class="why-icon-enhanced">
+                            <i class="fas fa-stopwatch fa-2x"></i>
+                        </div>
+                        <h4 class="font-weight-bold">Lightning-Fast Response Time</h4>
                     </div>
-
-                    <h4 class="font-weight-bold mt-4 mb-2">
-                        20 Min Response
-                    </h4>
-
-                    <div class="gold-line"></div>
-
-                    <p class="text-muted mb-4">
-                        Rapid Arrival Time
+                    <p class="why-card-description">
+                        Locked out of your car at 2 AM? Need emergency access to your business? We pride ourselves on our rapid response times, with average arrival within 20 minutes of your call. Our mobile fleet is strategically positioned across Philadelphia and South Jersey to ensure you're never waiting long for professional help.
                     </p>
-
-                    <a href="#" class="btn why-btn">
-                        CALL NOW
+                    <ul class="why-card-features">
+                        <li><i class="fas fa-check text-warning"></i> 20-minute average response</li>
+                        <li><i class="fas fa-check text-warning"></i> 24/7 emergency availability</li>
+                        <li><i class="fas fa-check text-warning"></i> Mobile units strategically located</li>
+                    </ul>
+                    <a href="tel:215-989-0101" class="btn why-btn-enhanced">
+                        <i class="fas fa-phone me-2"></i>Call Now: (215) 989-0101
                     </a>
-
                 </div>
             </div>
 
             <!-- Card 2 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="why-card text-center h-100">
-
-                    <div class="why-icon">
-                        <i class="fas fa-key fa-3x"></i>
+            <div class="col-md-6 col-lg-6">
+                <div class="why-card-enhanced h-100">
+                    <div class="why-card-header">
+                        <div class="why-icon-enhanced">
+                            <i class="fas fa-key fa-2x"></i>
+                        </div>
+                        <h4 class="font-weight-bold">Expert Key & Lock Specialists</h4>
                     </div>
-
-                    <h4 class="font-weight-bold mt-4 mb-2">
-                        Car Key Specialists
-                    </h4>
-
-                    <div class="gold-line"></div>
-
-                    <p class="text-muted mb-4">
-                        All Makes & Models
+                    <p class="why-card-description">
+                        From traditional locks to modern smart home systems, our certified locksmiths handle it all. We're specialists in automotive key programming, residential security upgrades, and commercial access control. Whether you need a simple key cut or complex transponder programming, our team has the expertise and equipment.
                     </p>
-
-                    <a href="#" class="btn why-btn">
-                        CALL NOW
+                    <ul class="why-card-features">
+                        <li><i class="fas fa-check text-warning"></i> All vehicle makes and models</li>
+                        <li><i class="fas fa-check text-warning"></i> Transponder & smart key programming</li>
+                        <li><i class="fas fa-check text-warning"></i> Smart lock installation & setup</li>
+                    </ul>
+                    <a href="/contact#contact-form-section" class="btn why-btn-enhanced">
+                        <i class="fas fa-envelope me-2"></i>Request Specialized Service
                     </a>
-
                 </div>
             </div>
 
             <!-- Card 3 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="why-card text-center h-100">
-
-                    <div class="why-icon">
-                        <i class="fas fa-house-lock fa-3x"></i>
+            <div class="col-md-6 col-lg-6">
+                <div class="why-card-enhanced h-100">
+                    <div class="why-card-header">
+                        <div class="why-icon-enhanced">
+                            <i class="fas fa-shield-alt fa-2x"></i>
+                        </div>
+                        <h4 class="font-weight-bold">Licensed, Insured & Certified</h4>
                     </div>
-
-                    <h4 class="font-weight-bold mt-4 mb-2">
-                        Home Lock Pros
-                    </h4>
-
-                    <div class="gold-line"></div>
-
-                    <p class="text-muted mb-4">
-                        Licensed & Insured
+                    <p class="why-card-description">
+                        Your security is our top priority. All our technicians are fully licensed by the state of Pennsylvania, insured, and background-checked. We adhere to the highest industry standards and maintain professional certifications. You can trust that your home, business, or vehicle is in capable, legitimate hands.
                     </p>
-
-                    <a href="#" class="btn why-btn">
-                        CALL NOW
+                    <ul class="why-card-features">
+                        <li><i class="fas fa-check text-warning"></i> Pennsylvania licensed locksmiths</li>
+                        <li><i class="fas fa-check text-warning"></i> Full liability insurance coverage</li>
+                        <li><i class="fas fa-check text-warning"></i> Background-checked technicians</li>
+                    </ul>
+                    <a href="/about" class="btn why-btn-enhanced">
+                        <i class="fas fa-info-circle me-2"></i>Learn About Our Team
                     </a>
-
                 </div>
             </div>
 
             <!-- Card 4 -->
-            <div class="col-md-6 col-lg-3">
-                <div class="why-card text-center h-100">
-
-                    <div class="why-icon">
-                        <i class="fas fa-tags fa-3x"></i>
+            <div class="col-md-6 col-lg-6">
+                <div class="why-card-enhanced h-100">
+                    <div class="why-card-header">
+                        <div class="why-icon-enhanced">
+                            <i class="fas fa-tags fa-2x"></i>
+                        </div>
+                        <h4 class="font-weight-bold">Transparent & Honest Pricing</h4>
                     </div>
-
-                    <h4 class="font-weight-bold mt-4 mb-2">
-                        Upfront Pricing
-                    </h4>
-
-                    <div class="gold-line"></div>
-
-                    <p class="text-muted mb-4">
-                        Honest Rates
+                    <p class="why-card-description">
+                        No hidden fees, no surprise charges. We believe in upfront, honest pricing that you can trust. Before we start any job, we'll explain what needs to be done and provide a clear quote. Our competitive rates reflect the quality of our work and the professionalism of our service—never cutting corners or compromising on excellence.
                     </p>
-
-                    <a href="#" class="btn why-btn">
-                        CALL NOW
+                    <ul class="why-card-features">
+                        <li><i class="fas fa-check text-warning"></i> Upfront quotes with no surprises</li>
+                        <li><i class="fas fa-check text-warning"></i> Competitive pricing across all services</li>
+                        <li><i class="fas fa-check text-warning"></i> No hidden fees or mark-ups</li>
+                    </ul>
+                    <a href="tel:215-989-0101" class="btn why-btn-enhanced">
+                        <i class="fas fa-quote-left me-2"></i>Get a Free Quote
                     </a>
-
                 </div>
             </div>
 
@@ -187,7 +180,7 @@
     </div>
 </section>
 
-				<div class="container my-5 pt-md-4 pt-xl-0 premium-about-section">
+				<!-- <div class="container my-5 pt-md-4 pt-xl-0 premium-about-section">
 					<div class="row align-items-center justify-content-center pb-4 mb-5">
 						<div class="col-lg-6 pb-sm-4 pb-lg-0 mb-5 mb-lg-0">
 							<div class="overflow-hidden">
@@ -239,10 +232,10 @@
 							<a href="demo-auto-services-services-detail.html" class="text-decoration-none">
 								<div class="custom-icon-box-style-1 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="250" data-plugin-options="{'accY': -200}">
 									<div class="custom-icon-style-1 mb-4">
-										<img width="50" src="/assets/img/demos/auto-services/icons/checklist.svg" alt="" data-icon="" data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}">
+										<i class="fas fa-door-open text-5" style="color: #d4af37;"></i>
 									</div>
-									<h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-3 px-xl-5 my-2">Residential Lock & Security Solutions</h3>
-									<p>High-security locks, rekeying, and smart home access upgrades for stronger protection.</p>
+									<h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-3 px-xl-5 my-2">Residential Lockouts & Key Services</h3>
+									<p>Locked out of your home? We provide rapid emergency entry without damage, plus rekeying, new key cutting, and smart lock installation for homes throughout Philadelphia and South Jersey.</p>
 								</div>
 							</a>
 						</div>
@@ -250,10 +243,10 @@
 							<a href="demo-auto-services-services-detail.html" class="text-decoration-none">
 								<div class="custom-icon-box-style-1 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="500" data-plugin-options="{'accY': -200}">
 									<div class="custom-icon-style-1 mb-4">
-										<img width="50" src="/assets/img/demos/auto-services/icons/wheel-disk.svg" alt="" data-icon="" data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}">
+										<i class="fas fa-car text-5" style="color: #d4af37;"></i>
 									</div>
-									<h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-xl-5 my-2 mx-4">Emergency Vehicle Lockout Response</h3>
-									<p>Fast, professional roadside service for lost keys, lockouts, and ignition issues.</p>
+									<h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-xl-5 my-2 mx-4">Vehicle Locksmith & Key Programming</h3>
+									<p>Locked keys in your car? We handle automotive lockouts, transponder key programming, ignition repairs, and emergency roadside assistance with our mobile units available 24/7.</p>
 								</div>
 							</a>
 						</div>
@@ -261,15 +254,15 @@
 							<a href="demo-auto-services-services-detail.html" class="text-decoration-none">
 								<div class="custom-icon-box-style-1 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="750" data-plugin-options="{'accY': -200}">
 									<div class="custom-icon-style-1 mb-4">
-										<img width="50" src="/assets/img/demos/auto-services/icons/car-safe.svg" alt="" data-icon="" data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}">
+										<i class="fas fa-lock text-5" style="color: #d4af37;"></i>
 									</div>
-									<h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-4 px-xl-5 my-2">Commercial Access Control</h3>
-									<p>Master key systems, card readers, and secure entry solutions built for businesses.</p>
+									<h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-4 px-xl-5 my-2">Commercial Security Solutions</h3>
+									<p>Protect your business with professional master key systems, access control, high-security locks, and comprehensive rekeying designed for retail, offices, and industrial properties.</p>
 								</div>
 							</a>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 			<!-- 	<section class="section custom-bg-color-grey-1 custom-background-size-1 position-relative overflow-hidden border-0 m-0" data-plugin-parallax="" data-plugin-options="{'speed': 1.5, 'parallaxHeight': '130%', 'fadeIn': true}" data-image-src="/assets/img/demos/auto-services/backgrounds/background-2.jpg">
 					<svg class="custom-svg-background-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 1920 537" data-appear-animation-svg="true">
@@ -392,39 +385,28 @@
 								<p class="font-weight-light text-3-5 mb-0">Read our testimonials from our happy customers.</p>
 							</div>
 						</div>
-						<div class="row g-4">
-							<div class="col-md-6 col-lg-3">
-								<div class="card border-0 shadow-sm h-100">
-									<div class="card-body p-4 text-center">
-										<p class="text-color-dark text-3 font-weight-light mb-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor.”</p>
-										<p class="mb-0"><strong class="font-weight-extra-bold">John Smith</strong></p>
+						<div v-if="loadingTestimonials" class="text-center py-4">
+							<p class="text-muted mb-0">Loading testimonials...</p>
+						</div>
+						<div v-else-if="testimonials.length" class="position-relative">
+							<div class="row g-4">
+								<div v-for="testimonial in visibleTestimonials[currentSlide] || []" :key="testimonial.id" class="col-md-6 col-lg-4">
+									<div class="card border-0 shadow-sm h-100 testimonial-card">
+										<div class="card-body p-4 text-center">
+											<div class="mb-3 text-warning fs-4">★★★★★</div>
+											<p class="text-color-dark text-3 font-weight-light mb-3">“{{ testimonial.message }}”</p>
+											<p class="mb-0"><strong class="font-weight-extra-bold">{{ testimonial.prenom }} {{ testimonial.nom }}</strong></p>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 col-lg-3">
-								<div class="card border-0 shadow-sm h-100">
-									<div class="card-body p-4 text-center">
-										<p class="text-color-dark text-3 font-weight-light mb-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor.”</p>
-										<p class="mb-0"><strong class="font-weight-extra-bold">John Doe</strong></p>
-									</div>
-								</div>
+							<div v-if="visibleTestimonials.length > 1" class="d-flex justify-content-center gap-2 mt-4">
+								<button type="button" class="btn btn-outline-dark btn-sm" @click="prevTestimonial">← Prev</button>
+								<button type="button" class="btn btn-outline-dark btn-sm" @click="nextTestimonial">Next →</button>
 							</div>
-							<div class="col-md-6 col-lg-3">
-								<div class="card border-0 shadow-sm h-100">
-									<div class="card-body p-4 text-center">
-										<p class="text-color-dark text-3 font-weight-light mb-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor.”</p>
-										<p class="mb-0"><strong class="font-weight-extra-bold">Jane Smith</strong></p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-3">
-								<div class="card border-0 shadow-sm h-100">
-									<div class="card-body p-4 text-center">
-										<p class="text-color-dark text-3 font-weight-light mb-3">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor.”</p>
-										<p class="mb-0"><strong class="font-weight-extra-bold">Jane Doe</strong></p>
-									</div>
-								</div>
-							</div>
+						</div>
+						<div v-else class="text-center py-4">
+							<p class="text-muted mb-0">No testimonials available yet.</p>
 						</div>
 					</div>
 				</section>
@@ -491,7 +473,7 @@
 							<div class="d-inline-block custom-divider divider divider-primary divider-small my-3">
 								<hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="650">
 							</div>
-							<p class="font-weight-light text-3-5 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin.</p>
+							<p class="font-weight-light text-3-5 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Get answers to common questions about our locksmith services, emergency response times, and service areas in Philadelphia and South Jersey.</p>
 						</div>
 					</div>
 					<div class="row row-gutter-sm">
@@ -515,13 +497,13 @@
 									<div class="card-header" id="collapse1HeadingOne">
 										<h4 class="card-title m-0">
 											<a class="accordion-toggle text-color-dark font-weight-bold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1One" aria-expanded="false" aria-controls="collapse1One">
-												1 - Why Choose Porto Auto Services?
+												1 - What should I do if I'm locked out of my home?
 											</a>
 										</h4>
 									</div>
 									<div id="collapse1One" class="collapse" aria-labelledby="collapse1HeadingOne" data-bs-parent="#accordion1">
 										<div class="card-body">
-											<p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+											<p class="mb-0">If you're locked out of your home, don't panic! First, check if any doors or windows are unlocked. If not, call us immediately at (215) 989-0101. We offer emergency lockout services available 24/7 with rapid response times. Our licensed technicians can gain entry without damaging your property and will help you restore access quickly and safely. Always have a spare key stored with a trusted friend or family member for future reference.</p>
 										</div>
 									</div>
 								</div>
@@ -529,13 +511,13 @@
 									<div class="card-header" id="collapse1HeadingTwo">
 										<h4 class="card-title m-0">
 											<a class="accordion-toggle text-color-dark font-weight-bold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1Two" aria-expanded="false" aria-controls="collapse1Two">
-												2 - Cras a elit sit amet leo accumsan?
+												2 - How quickly can you respond to emergency lockouts?
 											</a>
 										</h4>
 									</div>
 									<div id="collapse1Two" class="collapse" aria-labelledby="collapse1HeadingTwo" data-bs-parent="#accordion1">
 										<div class="card-body">
-											<p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+											<p class="mb-0">Our average response time is 20 minutes or less. We maintain a fleet of mobile units strategically positioned throughout Philadelphia and South Jersey to ensure the fastest possible arrival. For true emergencies, especially late at night or early morning, we prioritize dispatch based on proximity. When you call, provide us with your exact location, and we'll give you an estimated arrival time. Our team is always ready to respond 24/7, even on holidays and weekends.</p>
 										</div>
 									</div>
 								</div>
@@ -543,13 +525,13 @@
 									<div class="card-header" id="collapse1HeadingThree">
 										<h4 class="card-title m-0">
 											<a class="accordion-toggle text-color-dark font-weight-bold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1Three" aria-expanded="false" aria-controls="collapse1Three">
-												3 - Hel officitur felis ultricis nan?
+												3 - Are you licensed, insured, and bonded?
 											</a>
 										</h4>
 									</div>
 									<div id="collapse1Three" class="collapse" aria-labelledby="collapse1HeadingThree" data-bs-parent="#accordion1">
 										<div class="card-body">
-											<p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+											<p class="mb-0">Yes, absolutely! All our technicians are fully licensed by the state of Pennsylvania. We carry comprehensive liability insurance to protect your property in the unlikely event of any damage. Our team members are background-checked and trained to the highest industry standards. You can trust that your home, business, or vehicle is in the hands of legitimate, qualified professionals. We recommend always asking to see credentials before allowing any technician into your property.</p>
 										</div>
 									</div>
 								</div>
@@ -557,13 +539,13 @@
 									<div class="card-header" id="collapse1HeadingFour">
 										<h4 class="card-title m-0">
 											<a class="accordion-toggle text-color-dark font-weight-bold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1Four" aria-expanded="false" aria-controls="collapse1Four">
-												4 - Wuspaisse hendreirit vehicula leo?
+												4 - What areas do you service?
 											</a>
 										</h4>
 									</div>
 									<div id="collapse1Four" class="collapse" aria-labelledby="collapse1HeadingFour" data-bs-parent="#accordion1">
 										<div class="card-body">
-											<p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+											<p class="mb-0">We proudly serve Philadelphia and the surrounding areas including Upper Darby, Darby, Yeadon, Lansdowne, Springfield, Collingdale, Sharon Hill, Chester, and Camden, Woodbury, and Deptford in South Jersey. Our service radius continues to expand as we grow. If you're unsure whether your location is covered, please call us at (215) 989-0101 or visit our service areas page for the most up-to-date list. We're always willing to discuss emergency situations that may be outside our normal service area.</p>
 										</div>
 									</div>
 								</div>
@@ -571,13 +553,13 @@
 									<div class="card-header" id="collapse1HeadingFive">
 										<h4 class="card-title m-0">
 											<a class="accordion-toggle text-color-dark font-weight-bold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1Five" aria-expanded="false" aria-controls="collapse1Five">
-												5 - Lintegers aliquet ullamcorper dollor, quis sollic tudin?
+												5 - Do you offer 24/7 emergency locksmith services?
 											</a>
 										</h4>
 									</div>
 									<div id="collapse1Five" class="collapse" aria-labelledby="collapse1HeadingFive" data-bs-parent="#accordion1">
 										<div class="card-body">
-											<p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+											<p class="mb-0">Yes! Our emergency locksmith services are available around the clock, 365 days a year—including nights, weekends, and holidays. We understand that lockouts and security emergencies don't happen during business hours. Simply call (215) 989-0101 anytime day or night, and our dispatch team will immediately locate a technician nearby to assist you. There's no additional charge for after-hours service; our rates remain consistent regardless of when you need help. We're here whenever you need us most.</p>
 										</div>
 									</div>
 								</div>
@@ -796,13 +778,91 @@
 </template>
 
 <script setup>
+import { computed, onMounted, onUnmounted, ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import { locksmithServices, phoneNumber } from '../data/services'
+import { getData } from '../../plugins/axios'
 
 const featuredServices = locksmithServices.slice(0, 4)
+const testimonials = ref([])
+const loadingTestimonials = ref(true)
+const currentSlide = ref(0)
+let autoplayTimer = null
+
+const visibleTestimonials = computed(() => {
+  if (!testimonials.value.length) return []
+  const slides = []
+  for (let i = 0; i < testimonials.value.length; i += 3) {
+    slides.push(testimonials.value.slice(i, i + 3))
+  }
+  return slides
+})
+
+const fetchTestimonials = async () => {
+  try {
+    const response = await getData('/testimonials/published/list')
+    testimonials.value = Array.isArray(response) ? response : []
+  } catch (error) {
+    console.error('Error fetching testimonials:', error)
+  } finally {
+    loadingTestimonials.value = false
+  }
+}
+
+const nextTestimonial = () => {
+  if (!visibleTestimonials.value.length) return
+  currentSlide.value = (currentSlide.value + 1) % visibleTestimonials.value.length
+}
+
+const prevTestimonial = () => {
+  if (!visibleTestimonials.value.length) return
+  currentSlide.value = (currentSlide.value - 1 + visibleTestimonials.value.length) % visibleTestimonials.value.length
+}
+
+const startAutoplay = () => {
+  if (visibleTestimonials.value.length <= 1) return
+  clearInterval(autoplayTimer)
+  autoplayTimer = window.setInterval(() => {
+    nextTestimonial()
+  }, 5000)
+}
+
+onMounted(() => {
+  fetchTestimonials()
+  startAutoplay()
+})
+
+onUnmounted(() => {
+  clearInterval(autoplayTimer)
+})
 </script>
 
 <style scoped>
+.testimonial-carousel {
+  display: grid;
+  gap: 1rem;
+}
+
+.testimonial-slide {
+  display: block;
+}
+
+.testimonial-card {
+  border-radius: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2.5rem rgba(0,0,0,0.12) !important;
+}
+
+@media (min-width: 768px) {
+  .testimonial-carousel {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 :global(body) {
   background: #ffffff;
   color: #111111;
@@ -1181,6 +1241,160 @@ img {
 
   .hero-description {
     font-size: 0.95rem;
+  }
+}
+
+/* Enhanced Why Choose Us Cards */
+.why-card-enhanced {
+  background: #ffffff;
+  border: 1px solid #d4af37;
+  border-radius: 12px;
+  padding: 32px 28px;
+  transition: all 0.35s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.why-card-enhanced:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+  border-color: #f7d46a;
+}
+
+.why-card-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.why-icon-enhanced {
+  width: 90px;
+  height: 90px;
+  min-width: 90px;
+  background: linear-gradient(180deg, #f7d46a, #c99011);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(212, 175, 55, 0.35);
+  font-size: 2.2rem;
+}
+
+.why-card-enhanced:hover .why-icon-enhanced {
+  transform: scale(1.08);
+}
+
+.why-card-header h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.why-card-description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #4b5563;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.why-card-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+.why-card-features li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1rem;
+  color: #1f2937;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.why-card-features i {
+  font-size: 1.1rem;
+  color: #f7d46a;
+  min-width: 20px;
+}
+
+.why-btn-enhanced {
+  background: linear-gradient(180deg, #f7d46a, #c99011);
+  color: #111827;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  padding: 14px 28px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.why-btn-enhanced:hover {
+  color: #111827;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(212, 175, 55, 0.4);
+  background: linear-gradient(180deg, #f7dd88, #d4a922);
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .why-card-enhanced {
+    padding: 24px 20px;
+  }
+
+  .why-card-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .why-icon-enhanced {
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    font-size: 1.8rem;
+  }
+
+  .why-card-header h4 {
+    font-size: 1.3rem;
+  }
+
+  .why-card-description {
+    font-size: 0.95rem;
+  }
+
+  .why-card-features li {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .why-card-enhanced {
+    padding: 20px 16px;
+  }
+
+  .why-card-header h4 {
+    font-size: 1.15rem;
+  }
+
+  .why-card-description {
+    font-size: 0.9rem;
+  }
+
+  .why-btn-enhanced {
+    width: 100%;
+    justify-content: center;
   }
 }
 </style>

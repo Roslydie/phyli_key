@@ -30,20 +30,20 @@
             <div class="about-feature-card rounded-5 shadow-sm bg-white p-5 h-100">
               <span class="d-inline-block text-uppercase letter-spacing-3 text-warning mb-3">Company story</span>
               <h2 class="font-weight-bold text-color-dark mb-4">Built from trust, driven by excellence.</h2>
-              <p class="text-muted fs-5 mb-5">We began as a local locksmith team with one clear goal: get people moving again quickly and safely. Over the years, we expanded to provide a full range of locksmith services while preserving the fast, friendly support that customers rely on.</p>
+              <p class=" fs-5 mb-5">We began as a local locksmith team with one clear goal: get people moving again quickly and safely. Over the years, we expanded to provide a full range of locksmith services while preserving the fast, friendly support that customers rely on.</p>
               <div class="d-flex flex-column gap-4">
                 <div class="feature-item d-flex align-items-start gap-3">
                   <span class="feature-badge bg-warning text-dark"><i class="fas fa-shield-alt"></i></span>
                   <div>
                     <h5 class="mb-1">Trusted craftsmanship</h5>
-                    <p class="mb-0 text-muted">Precise lock installs and secure solutions for every property.</p>
+                    <p class="mb-0 ">Precise lock installs and secure solutions for every property.</p>
                   </div>
                 </div>
                 <div class="feature-item d-flex align-items-start gap-3">
                   <span class="feature-badge bg-warning text-dark"><i class="fas fa-clock"></i></span>
                   <div>
                     <h5 class="mb-1">Fast on-site response</h5>
-                    <p class="mb-0 text-muted">Rapid arrival and efficient completion of urgent calls.</p>
+                    <p class="mb-0 ">Rapid arrival and efficient completion of urgent calls.</p>
                   </div>
                 </div>
               </div>
@@ -53,19 +53,19 @@
             <div class="about-feature-card rounded-5 shadow-sm bg-white p-5 h-100">
               <span class="d-inline-block text-uppercase letter-spacing-3 text-warning mb-3">Mission</span>
               <h2 class="font-weight-bold text-color-dark mb-4">Deliver clear, reliable locksmith care every time.</h2>
-              <p class="text-muted fs-5 mb-4">Our mission is to make locksmith services simple, elegant and dependable. We focus on transparency, quality parts and a polished experience from first call to service completion.</p>
+              <p class=" fs-5 mb-4">Our mission is to make locksmith services simple, elegant and dependable. We focus on transparency, quality parts and a polished experience from first call to service completion.</p>
               <ul class="list-unstyled mb-0 feature-list">
                 <li class="d-flex align-items-start mb-4">
                   <span class="feature-check text-warning me-3 mt-1"><i class="fas fa-check-circle"></i></span>
-                  <span class="text-muted">Clear pricing with no hidden fees.</span>
+                  <span class="">Clear pricing with no hidden fees.</span>
                 </li>
                 <li class="d-flex align-items-start mb-4">
                   <span class="feature-check text-warning me-3 mt-1"><i class="fas fa-check-circle"></i></span>
-                  <span class="text-muted">Skilled technicians for modern lock systems.</span>
+                  <span class="">Skilled technicians for modern lock systems.</span>
                 </li>
                 <li class="d-flex align-items-start">
                   <span class="feature-check text-warning me-3 mt-1"><i class="fas fa-check-circle"></i></span>
-                  <span class="text-muted">Responsive support whenever you need it.</span>
+                  <span class="">Responsive support whenever you need it.</span>
                 </li>
               </ul>
             </div>
@@ -80,7 +80,7 @@
           <div class="col-lg-8">
             <span class="d-inline-block text-uppercase letter-spacing-3 text-warning mb-3">Service area</span>
             <h2 class="font-weight-bold text-color-dark mb-3">We protect homes, keys and businesses across the region.</h2>
-            <p class="text-muted fs-5 mb-0">Covering the city and surrounding communities with locksmith services for residential, automotive and commercial needs.</p>
+            <p class=" fs-5 mb-0">Covering the city and surrounding communities with locksmith services for residential, automotive and commercial needs.</p>
           </div>
         </div>
         <div class="row g-4">
@@ -88,28 +88,28 @@
             <div class="about-service-card rounded-5 bg-white shadow-sm p-4 h-100 text-center">
               <span class="icon-circle bg-warning text-dark mb-3"><i class="fas fa-home"></i></span>
               <h4 class="font-weight-semibold mb-2">Residential</h4>
-              <p class="text-muted mb-0">Lockouts, rekeys, installations and upgrade services.</p>
+              <p class=" mb-0">Lockouts, rekeys, installations and upgrade services.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="about-service-card rounded-5 bg-white shadow-sm p-4 h-100 text-center">
               <span class="icon-circle bg-warning text-dark mb-3"><i class="fas fa-car"></i></span>
               <h4 class="font-weight-semibold mb-2">Automotive</h4>
-              <p class="text-muted mb-0">Key fob programming, ignition repair and emergency entry.</p>
+              <p class=" mb-0">Key fob programming, ignition repair and emergency entry.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="about-service-card rounded-5 bg-white shadow-sm p-4 h-100 text-center">
               <span class="icon-circle bg-warning text-dark mb-3"><i class="fas fa-building"></i></span>
               <h4 class="font-weight-semibold mb-2">Commercial</h4>
-              <p class="text-muted mb-0">Master keys, safe locks and secure business entry solutions.</p>
+              <p class=" mb-0">Master keys, safe locks and secure business entry solutions.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="about-service-card rounded-5 bg-white shadow-sm p-4 h-100 text-center">
               <span class="icon-circle bg-warning text-dark mb-3"><i class="fas fa-map-marker-alt"></i></span>
               <h4 class="font-weight-semibold mb-2">Local coverage</h4>
-              <p class="text-muted mb-0">Philadelphia, suburbs, and nearby neighborhoods.</p>
+              <p class=" mb-0">Philadelphia, suburbs, and nearby neighborhoods.</p>
             </div>
           </div>
         </div>

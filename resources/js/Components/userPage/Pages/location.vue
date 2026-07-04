@@ -19,7 +19,7 @@
       <div class="container">
         <div class="section-title text-center mb-5">
           <h2 class="font-weight-bold mb-3">Service Coverage Areas</h2>
-          <p class="lead text-muted">Available 24/7 across all locations</p>
+          <p class="lead ">Available 24/7 across all locations</p>
         </div>
 
         <div class="row g-4">
@@ -29,16 +29,12 @@
             class="col-lg-4 col-md-6"
           >
             <div class="location-card rounded-4 shadow-sm overflow-hidden transition-all h-100" @click="selectLocation(location)">
-              <div class="location-card-image position-relative overflow-hidden">
-                <img :src="location.image" :alt="location.name" class="img-fluid w-100">
-                <div class="location-card-overlay"></div>
-              </div>
               <div class="location-card-body p-4 bg-white">
                 <h3 class="font-weight-bold mb-2">{{ location.name }}</h3>
-                <p class="text-muted mb-3 location-description">{{ location.description }}</p>
+                <p class="mb-3 location-description">{{ location.description }}</p>
                 
                 <div class="location-address mb-3">
-                  <small class="text-muted">
+                  <small class="">
                     <i class="fas fa-map-marker-alt me-2 text-warning"></i>
                     {{ location.address }}
                   </small>
@@ -64,7 +60,7 @@
           <div class="col-lg-6 mb-4 mb-lg-0">
             <div class="coverage-content">
               <h2 class="font-weight-bold mb-4">Fast Response, Trusted Service</h2>
-              <p class="text-muted mb-3">Our mobile locksmith team operates across Greater Philadelphia and South Jersey with equipment and expertise to handle:</p>
+              <p class="mb-3">Our mobile locksmith team operates across Greater Philadelphia and South Jersey with equipment and expertise to handle:</p>
               <ul class="coverage-list">
                 <li><i class="fas fa-check text-warning me-3"></i>Emergency Lockouts (Residential & Commercial)</li>
                 <li><i class="fas fa-check text-warning me-3"></i>Key Replacements & Duplication</li>
@@ -240,34 +236,6 @@ function selectLocation(location) {
   transform: translateY(-8px);
   box-shadow: 0 20px 40px rgba(15, 23, 42, 0.1) !important;
   border-color: #ffc72c;
-}
-
-.location-card-image {
-  height: 280px;
-  overflow: hidden;
-  background: #e5e7eb;
-}
-
-.location-card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.4s ease;
-}
-
-.location-card:hover .location-card-image img {
-  transform: scale(1.08);
-}
-
-.location-card-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0);
-  transition: background 0.3s ease;
-}
-
-.location-card:hover .location-card-overlay {
-  background: rgba(0, 0, 0, 0.15);
 }
 
 .location-card-body {

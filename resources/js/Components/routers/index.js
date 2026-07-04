@@ -13,7 +13,10 @@ const router = createRouter({
     {
       path: "/admin",
       component: AdminLayout,
-      children: [{ path: "", name: "admin.home", component: AdminHome }],
+      children: [{ path: "", name: "admin.home", component: AdminHome },
+                 { path: "testimonial", name: "admin.testimonial", component: () => import("../adminPage/Pages/testimonial.vue") },
+                 { path: "users", name: "admin.users", component: () => import("../adminPage/Pages/user.vue") },
+      ],
     },
     {
       path: "/",
