@@ -49,9 +49,7 @@
     <body>
         <div id="app"></div>
 
-        <script async="" src="../../../gtag/js?id=G-T21B0FFW8M"></script>
-
-        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="{{ asset('assets/vendor/plugins/js/plugins.min.js') }}"></script>
+        <script src="{{ asset('assets/vendor/plugins/js/plugins.min.js') }}"></script>
 		<script src="{{ asset('assets/vendor/bootstrap-star-rating/js/star-rating.min.js') }}"></script>
 		<script src="{{ asset('assets/vendor/bootstrap-star-rating/themes/krajee-fas/theme.min.js') }}"></script>
 
@@ -68,6 +66,5 @@
 		<!-- Theme Initialization Files -->
 		<script src="{{ asset('assets/js/theme.init.js') }}"></script>
 
-	<script defer="" src="../../../beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"150b9db34298478c847cc7af76484de0","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 	
     </body>

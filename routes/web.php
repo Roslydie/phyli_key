@@ -13,6 +13,8 @@ Route::get('/admin', function () {
     return view('admin');
 })->name('admin.page');
 
-
+Route::fallback(function () {
+    return view('welcome');
+});
 
 require __DIR__.'/auth.php';

@@ -10,7 +10,7 @@
 								<div class="header-row justify-content-between">
 									<div class="header-logo z-index-2 col-lg-2 px-0">
 										<RouterLink to="/">
-											<img alt="Porto" width="123" height="68" data-sticky-width="82" data-sticky-height="60" data-sticky-top="84" src="/assets/img/demos/auto-services/log.png" data-img-suffix-primary="">
+											<img alt="Phili" width="130" height="72" data-sticky-width="92" data-sticky-height="60" data-sticky-top="84" src="/assets/img/demos/auto-services/logo_phili.png" data-img-suffix-primary="">
 										</RouterLink>
 									</div>
 									<div class="header-nav header-nav-links justify-content-end pe-lg-4 me-lg-3">
@@ -24,7 +24,7 @@
 															<RouterLink to="/services" exact-active-class="active" class="nav-link text-capitalize">Services</RouterLink>
 														</li>
 														<li class="nav-item">
-															<RouterLink to="/locations" exact-active-class="active" class="nav-link text-capitalize">Locations</RouterLink>
+															<RouterLink to="/location" exact-active-class="active" class="nav-link text-capitalize">Locations</RouterLink>
 														</li>
 														<li class="nav-item">
 															<RouterLink to="/about" exact-active-class="active" class="nav-link text-capitalize">About Us</RouterLink>
@@ -44,8 +44,8 @@
 											<div class="header-extra-info-text btn btn-primary px-4 py-2">
     <span class="d-block text-white">CALL US NOW</span>
     <strong>
-        <a href="tel:+1234567890" class="text-white text-decoration-none">
-            +123 4567 890
+        <a href="tel:215-989-0101" class="text-white text-decoration-none">
+           215-989-0101
         </a>
     </strong>
 </div>
@@ -77,8 +77,8 @@ header,
 .header-nav-main,
 .header-logo,
 .header-extra-info {
-  background-color: #000000 !important;
-  background: #000000 !important;
+  background-color: #494949 !important;
+  background: #494949 !important;
 }
 
 .header-body {
@@ -91,9 +91,8 @@ header,
 }
 
 .header-logo img {
-  width: 170px;
- 
-  height: 100px;
+  width: 190px;
+  height: 110px;
 }
 
 .nav-link {
