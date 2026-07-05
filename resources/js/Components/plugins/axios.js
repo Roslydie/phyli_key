@@ -12,6 +12,19 @@ axiosInstance.interceptors.request.use(config => {
     return config;
 })
 
+// Response interceptor to handle 401 errors
+axiosInstance.interceptors.response.use(
+    response => response,
+    error => {
+        if (error.response && error.response.status === 401) {
+            localStorage.removeItem('token');
+            localStorage.removeItem('user');
+            window.location.href = '/admin/login?unauthorized=true';
+        }
+        return Promise.reject(error);
+    }
+)
+
 export const getData = async (url) => {
     try {
         const response = await axiosInstance.get(url);

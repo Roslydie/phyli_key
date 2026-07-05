@@ -7,59 +7,46 @@ use Illuminate\Http\Request;
 
 class UsersController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
-        //
+        return response()->json(Users::latest()->get());
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(Request $request)
     {
-        //
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|unique:users,email',
+            'password' => 'required|string|min:8',
+        ]);
+
+        $user = Users::create($validated);
+
+        return response()->json($user->makeHidden(['password']), 201);
     }
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(Users $users)
+    public function show(Users $user)
     {
-        //
+        return response()->json($user->makeHidden(['password']));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Users $users)
+    public function update(Request $request, Users $user)
     {
-        //
+        $validated = $request->validate([
+            'name' => 'sometimes|required|string|max:255',
+            'email' => 'sometimes|required|email|unique:users,email,' . $user->id,
+            'password' => 'sometimes|required|string|min:8',
+        ]);
+
+        $user->update($validated);
+
+        return response()->json($user->fresh()->makeHidden(['password']));
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, Users $users)
+    public function destroy(Users $user)
     {
-        //
-    }
+        $user->delete();
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(Users $users)
-    {
-        //
+        return response()->json(['message' => 'User deleted'], 200);
     }
 }

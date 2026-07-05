@@ -10,7 +10,7 @@
 								<div class="header-row justify-content-between">
 									<div class="header-logo z-index-2 col-lg-2 px-0">
 										<RouterLink to="/">
-											<img alt="Phili" width="130" height="72" data-sticky-width="92" data-sticky-height="60" data-sticky-top="84" src="/assets/img/demos/auto-services/logo_phili.png" data-img-suffix-primary="">
+											<img alt="Phili" width="160" height="88" data-sticky-width="120" data-sticky-height="70" data-sticky-top="84" src="/assets/img/demos/auto-services/logo_phili.png" data-img-suffix-primary="">
 										</RouterLink>
 									</div>
 									<div class="header-nav header-nav-links justify-content-end pe-lg-4 me-lg-3">

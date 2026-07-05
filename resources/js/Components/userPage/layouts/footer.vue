@@ -39,6 +39,48 @@
 						</div>
 					</div>
 				</div>
-				
+				<hr class="border-color-light my-2">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+							<p class="text-color-light mb-0">&copy; {{ currentYear }} PhillyKeyMaster. All rights reserved.</p>
+						</div>
+						<div class="col-md-6 text-center text-md-end">
+							<button @click="openAdminPanel" class="text-color-light text-decoration-none hover-effect admin-link">
+								<i class="ti ti-lock me-1"></i>Admin Panel
+							</button>
+						</div>
+					</div>
+				</div>
 			</footer>
-</template>
+		</template>
+
+<script setup>
+import { ref } from 'vue'
+
+const currentYear = ref(new Date().getFullYear())
+
+const openAdminPanel = () => {
+	window.open('/admin/login', '_blank', 'noopener,noreferrer')
+}
+</script>
+
+<style scoped>
+.hover-effect {
+	transition: color 0.3s ease;
+	cursor: pointer;
+	border: none;
+	background: none;
+	padding: 0;
+	font-size: inherit;
+}
+
+.admin-link {
+	display: inline-block;
+}
+
+.hover-effect:hover {
+	color: #fff !important;
+	text-decoration: underline !important;
+}
+</style>

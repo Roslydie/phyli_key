@@ -94,13 +94,10 @@
                   </div>
 
                   <div class="col-12">
-                    <input
-                      type="tel"
+                    <PhoneInput
                       v-model="contactForm.phone"
                       placeholder="Phone Number"
-                      required
                       :class="{ 'is-invalid': errors.phone }"
-                      class="form-control"
                     />
                     <small v-if="errors.phone" class="text-danger">{{ errors.phone }}</small>
                   </div>
@@ -217,6 +214,7 @@
 import { ref } from 'vue';
 import axios from 'axios';
 import { RouterLink } from 'vue-router';
+import PhoneInput from '../../shared/PhoneInput.vue';
 
 const contactForm = ref({
   full_name: '',

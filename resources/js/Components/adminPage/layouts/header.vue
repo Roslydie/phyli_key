@@ -1,13 +1,7 @@
 <template>
   <nav class="topbar" role="banner">
     <div class="topbar-title">Dashboard</div>
-    <div class="topbar-actions">
-      <a href="#" class="icon-btn">🔔 <span>2</span></a>
-      <a href="#" class="user-pill">
-        <img src="/assets/admin/images/avatar/avatar-1.jpg" alt="avatar" />
-        <span>Shrina</span>
-      </a>
-    </div>
+
   </nav>
 </template>
 
