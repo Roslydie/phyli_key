@@ -39,7 +39,7 @@
                 </div>
                 <div class="contact-item mb-4">
                   <strong>Email</strong>
-                  <p><a href="mailto:techr7129@gmail.com" class="text-decoration-none text-dark">techr7129@gmail.com</a></p>
+                  <p><a href="mailto:contact@tireandkeyexpress.com" class="text-decoration-none text-dark">contact@tireandkeyexpress.com</a></p>
                 </div>
                 <div class="contact-item">
                   <strong>Hours</strong>
@@ -163,7 +163,7 @@
                 <div class="contact-info-inner">
                   <div class="single-contact-info mb-4">
                     <p class="text-uppercase text-warning mb-2">Email</p>
-                    <h4 class="mb-0">techr7129@gmail.com</h4>
+                    <h4 class="mb-0">contact@tireandkeyexpress.com</h4>
                   </div>
                   <div class="single-contact-info mb-4">
                     <p class="text-uppercase text-warning mb-2">Phone</p>

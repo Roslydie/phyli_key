@@ -69,7 +69,7 @@
                   <h2>8. Contact Us</h2>
                   <p>If you have questions about this Privacy Policy or how we handle your information, please contact us:</p>
                   <ul class="contact-list">
-                    <li><strong>Email:</strong> techr7129@gmail.com</li>
+                    <li><strong>Email:</strong> contact@tireandkeyexpress.com</li>
                     <li><strong>Phone:</strong> 2679242208</li>
                     <li><strong>Address:</strong> 6544 Essington Ave, Philadelphia, PA 19153</li>
                   </ul>

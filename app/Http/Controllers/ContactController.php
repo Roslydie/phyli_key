@@ -27,8 +27,9 @@ public function store(Request $request)
 
     $contact = Contact::create($validated);
 
-    Mail::to('lydieamoussouga@gmail.com')
-        ->send(new ContactMessageMail($contact));
+    Mail::to(config('mail.from.address'))->send(
+    new ContactMessageMail($contact)
+);
 
     return response()->json($contact, 201);
 }

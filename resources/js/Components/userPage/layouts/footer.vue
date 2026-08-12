@@ -33,7 +33,7 @@
 								</div>
 								<div class="feature-box-info line-height-1 ps-xl-3">
 									<span class="d-block font-weight-bold text-color-light text-5 pb-1 mb-1">Contact Info</span>
-									<a href="mailto:techr7129@gmail.com" class="text-color-light text-4 line-height-7 text-decoration-none">techr7129@gmail.com</a>
+									<a href="mailto:contact@tireandkeyexpress.com" class="text-color-light text-4 line-height-7 text-decoration-none">contact@tireandkeyexpress.com</a>
 								</div>
 							</div>
 						</div>
