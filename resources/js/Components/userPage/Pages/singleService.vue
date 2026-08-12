@@ -59,7 +59,7 @@
             </div>
           </div>
 
-          <div class="card bg-primary custom-border-radius-1">
+          <div class="card bg-logo-blue custom-border-radius-1">
             <div class="card-body text-center py-5 my-2">
               <h2 class="text-color-light font-weight-medium text-3 line-height-2 line-height-sm-1 mb-3 pb-1">LOOKING FOR HONEST AND RELIABLE SERVICES?</h2>
               <h3 class="font-weight-bold text-color-light text-transform-none text-8 line-height-3 mb-3">Fast locksmith support in Philadelphia</h3>
@@ -91,3 +91,9 @@ const route = useRoute()
 const services = locksmithServices
 const currentService = computed(() => services.find((item) => item.slug === route.params.id))
 </script>
+
+<style scoped>
+.bg-logo-blue {
+    background-color: #061B4F !important;
+}
+</style>

@@ -19,8 +19,8 @@
             </p>
 
             <div class="d-flex flex-wrap justify-content-center gap-3 mb-5">
-                <a href="tel:215-989-0101" class="btn btn-warning btn-lg px-5 py-3">
-                    📞 Call Now: 215-989-0101
+                <a href="tel:2679242208" class="btn btn-warning btn-lg px-5 py-3">
+                    📞 Call Now: 2679242208
                 </a>
 
                 <a href="/contact#contact-form-section" class="btn btn-light btn-lg px-5 py-3">
@@ -100,8 +100,8 @@
                         <li><i class="fas fa-check text-warning"></i> 24/7 emergency availability</li>
                         <li><i class="fas fa-check text-warning"></i> Mobile units strategically located</li>
                     </ul>
-                    <a href="tel:215-989-0101" class="btn why-btn-enhanced">
-                        <i class="fas fa-phone me-2"></i>Call Now: (215) 989-0101
+                    <a href="tel:2679242208" class="btn why-btn-enhanced">
+                        <i class="fas fa-phone me-2"></i>Call Now: 2679242208
                     </a>
                 </div>
             </div>
@@ -169,7 +169,7 @@
                         <li><i class="fas fa-check text-warning"></i> Competitive pricing across all services</li>
                         <li><i class="fas fa-check text-warning"></i> No hidden fees or mark-ups</li>
                     </ul>
-                    <a href="tel:215-989-0101" class="btn why-btn-enhanced">
+                    <a href="tel:2679242208" class="btn why-btn-enhanced">
                         <i class="fas fa-quote-left me-2"></i>Get a Free Quote
                     </a>
                 </div>
@@ -411,7 +411,7 @@
 					</div>
 				</section>
 
-				<section class="section section-height-3 bg-primary border-0 m-0">
+				<section class="section section-height-3 bg-logo-blue border-0 m-0">
 					<div class="container">
 						<div class="row align-items-center">
 							<div class="col-lg-6 col-xl-7 text-center text-lg-start mb-4 mb-lg-0">
@@ -427,7 +427,7 @@
 										</div>
 										<div class="feature-box-info line-height-2 ps-1">
 											<span class="d-block text-1 font-weight-semibold text-color-light mb-1">CALL US NOW</span>
-											<strong class="text-4-5"><a href="tel:215-989-0101" class="text-color-light text-decoration-none">215-989-0101</a></strong>
+											<strong class="text-4-5"><a href="tel:2679242208" class="text-color-light text-decoration-none">2679242208</a></strong>
 										</div>
 									</div>
 									<a href="/contact#contact-form-section" class="btn btn-light btn-outline custom-btn-border-radius border-color-light font-weight-bold text-color-light text-color-hover-dark bg-color-hover-light btn-px-5 btn-py-3">REQUEST SERVICE</a>
@@ -569,14 +569,16 @@
 							<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
 								<h3 class="font-weight-bold text-color-dark text-transform-none text-5-5 mb-3">Our Mission</h3>
 								<p class="pb-1 mb-2">Our mission is to make locksmith services simple, elegant and dependable. We focus on transparency, quality parts and a polished experience from first call to service completion.</p>
-								<a href="/about" class="btn btn-primary text-color-light custom-btn-border-radius font-weight-bold btn-px-5 py-3 mb-2">VIEW MORE</a>
-
+<a href="/about"
+   class="btn btn-logo-blue text-color-light custom-btn-border-radius font-weight-bold btn-px-5 py-3 mb-2">
+    VIEW MORE
+</a>
 								<hr class="my-4">
 							</div>
 							<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">
 								<h3 class="font-weight-bold text-color-dark text-transform-none text-5-5 pt-2 mb-3">Any Questions?</h3>
 								<p class="pb-1 mb-2">Our team is ready to help with fast, dependable locksmith service whenever you need it.</p>
-								<a href="/contact#contact-form-section" class="btn btn-primary text-color-light custom-btn-border-radius font-weight-bold btn-px-5 py-3">CONTACT US</a>
+								<a href="/contact#contact-form-section" class="btn btn-logo-blue text-color-light custom-btn-border-radius font-weight-bold btn-px-5 py-3">CONTACT US</a>
 							</div>
 						</div>
 					</div>
@@ -838,6 +840,22 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
+.bg-logo-blue {
+    background-color: #061B4F !important;
+}
+
+.btn-logo-blue {
+    background-color: #061B4F !important;
+    border-color: #061B4F !important;
+    color: #fff !important;
+}
+
+.btn-logo-blue:hover {
+    background-color: #08276B !important;
+    border-color: #08276B !important;
+    color: #fff !important;
+}
+
 .testimonial-carousel {
   display: grid;
   gap: 1rem;

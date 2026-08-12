@@ -10,7 +10,7 @@
 								<div class="header-row justify-content-between">
 									<div class="header-logo z-index-2 col-lg-2 px-0">
 										<RouterLink to="/">
-											<img alt="Phili" width="160" height="88" data-sticky-width="120" data-sticky-height="70" data-sticky-top="84" src="/assets/img/demos/auto-services/logo_phili.png" data-img-suffix-primary="">
+											<img alt="Phili" width="160" height="88" data-sticky-width="120" data-sticky-height="70" data-sticky-top="84" src="/assets/img/demos/auto-services/logo_update.png" data-img-suffix-primary="">
 										</RouterLink>
 									</div>
 									<div class="header-nav header-nav-links justify-content-end pe-lg-4 me-lg-3">
@@ -44,8 +44,8 @@
 											<div class="header-extra-info-text btn btn-primary px-4 py-2">
     <span class="d-block text-white">CALL US NOW</span>
     <strong>
-        <a href="tel:215-989-0101" class="text-white text-decoration-none">
-           215-989-0101
+        <a href="tel:2679242208" class="text-white text-decoration-none">
+           2679242208
         </a>
     </strong>
 </div>

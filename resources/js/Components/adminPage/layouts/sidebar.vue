@@ -3,7 +3,7 @@
     <div class="logo-area">
       <a href="#" class="brand">
         <img src="/assets/admin/images/logo-icon.svg" alt="" width="40">
-        <span>Phili Keys</span>
+        <span>Tire and Key Express</span>
       </a>
     </div>
 

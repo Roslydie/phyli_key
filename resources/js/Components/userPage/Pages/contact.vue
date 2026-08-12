@@ -10,7 +10,7 @@
             <h1 class="hero-title text-white mb-4">Fast locksmith support for Greater Philadelphia & South Jersey.</h1>
             <p class="text-white-75 lead mb-4">Reach our mobile locksmith team for emergency lockouts, key replacements, security upgrades and trusted service across the region.</p>
             <div class="d-flex flex-wrap gap-3">
-              <a href="tel:215-989-0101" class="btn btn-warning btn-lg px-5 py-3">Call Now</a>
+              <a href="tel:2679242208" class="btn btn-warning btn-lg px-5 py-3">Call Now</a>
               <a href="#contact-form-section" class="btn btn-outline-light btn-lg px-5 py-3">Request Service</a>
             </div>
           </div>
@@ -35,7 +35,7 @@
               <div class="contact-details mt-4">
                 <div class="contact-item mb-4">
                   <strong>Phone</strong>
-                  <p><a href="tel:215-989-0101" class="text-decoration-none text-dark">(215) 989-0101</a></p>
+                  <p><a href="tel:2679242208" class="text-decoration-none text-dark">(267) 924-2208</a></p>
                 </div>
                 <div class="contact-item mb-4">
                   <strong>Email</strong>
@@ -143,14 +143,14 @@
             <div class="col-xl-6">
               <div class="map-responsive rounded-4 overflow-hidden shadow-sm border">
                 <iframe
-                  src="https://www.google.com/maps?q=3506%20S%2061st%20Philadelphia%20PA%2019153&output=embed"
+                  src="https://www.google.com/maps?q=6544%20Essington%20Ave%20Philadelphia%20PA%2019153&output=embed"
                   width="100%"
                   height="100%"
                   style="border:0;"
                   allowfullscreen=""
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
-                  title="3506 S 61st Philadelphia PA 19153"
+                  title="6544 Essington Ave Philadelphia PA 19153"
                 ></iframe>
               </div>
             </div>
@@ -167,11 +167,11 @@
                   </div>
                   <div class="single-contact-info mb-4">
                     <p class="text-uppercase text-warning mb-2">Phone</p>
-                    <h4 class="mb-0">215 989-0101</h4>
+                    <h4 class="mb-0">2679242208</h4>
                   </div>
                   <div class="single-contact-info mb-4">
                     <p class="text-uppercase text-warning mb-2">Address</p>
-                    <h4 class="mb-0">3506 S 61st Philadelphia PA 19153</h4>
+                    <h4 class="mb-0">6544 Essington Ave Philadelphia PA 19153</h4>
                   </div>
 
                   <div class="contact-hours mb-4">

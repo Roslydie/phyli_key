@@ -10,7 +10,7 @@
 								</div>
 								<div class="feature-box-info line-height-1 ps-2">
 									<span class="d-block font-weight-bold text-color-light text-5 mb-2">Address</span>
-									<p class="text-color-light text-4 line-height-4 font-weight-light mb-0">3506 S 61st Philadelphia PA 19153</p>
+									<p class="text-color-light text-4 line-height-4 font-weight-light mb-0">6544 Essington Ave Philadelphia PA 19153</p>
 								</div>
 							</div>
 						</div>
@@ -21,7 +21,7 @@
 								</div>
 								<div class="feature-box-info line-height-1 ps-2">
 									<span class="d-block font-weight-bold text-color-light text-5 pb-1 mb-1">Call Us Now</span>
-									<a href="tel:215-989-0101" class="text-color-light text-4 line-height-7 text-decoration-none"> 215-989-0101</a>
+									<a href="tel:2679242208" class="text-color-light text-4 line-height-7 text-decoration-none"> 2679242208</a>
 									
 								</div>
 							</div>
@@ -41,11 +41,14 @@
 				</div>
 				<hr class="border-color-light my-2">
 				<div class="container">
-					<div class="row align-items-center">
+					<div class="row align-items-center gy-3">
 						<div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-							<p class="text-color-light mb-0">&copy; {{ currentYear }} PhillyKeyMaster. All rights reserved.</p>
+							<p class="text-color-light mb-0">&copy; {{ currentYear }} Tire and Key Express. All rights reserved.</p>
 						</div>
-						<div class="col-md-6 text-center text-md-end">
+						<div class="col-md-6 text-center text-md-end d-flex align-items-center justify-content-center justify-content-md-end gap-3">
+							<RouterLink to="/policy" class="text-color-light text-decoration-none hover-effect legal-link">
+							<strong>Privacy Policy</strong>
+							</RouterLink>
 							<button @click="openAdminPanel" class="text-color-light text-decoration-none hover-effect admin-link">
 								<i class="ti ti-lock me-1"></i>Admin Panel
 							</button>
@@ -57,6 +60,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { RouterLink } from 'vue-router'
 
 const currentYear = ref(new Date().getFullYear())
 
@@ -75,7 +79,8 @@ const openAdminPanel = () => {
 	font-size: inherit;
 }
 
-.admin-link {
+.admin-link,
+.legal-link {
 	display: inline-block;
 }
 

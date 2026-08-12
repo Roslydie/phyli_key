@@ -45,7 +45,7 @@
                   <strong class="text-warning d-block mb-2">
                     <i class="fas fa-phone me-2"></i>Call Us
                   </strong>
-                  <a href="tel:215-989-0101" class="text-decoration-none text-dark">(215) 989-0101</a>
+                  <a href="tel:2679242208" class="text-decoration-none text-dark">(215) 989-0101</a>
                 </div>
                 <div class="contact-item">
                   <strong class="text-warning d-block mb-2">
@@ -61,7 +61,7 @@
                 <p class="mb-0 small text-warning">Emergency: 24/7 Available</p>
               </div>
 
-              <a href="tel:215-989-0101" class="btn btn-warning w-100 btn-lg">
+              <a href="tel:2679242208" class="btn btn-warning w-100 btn-lg">
                 <i class="fas fa-phone me-2"></i>Call Now
               </a>
             </div>
@@ -110,8 +110,8 @@
             <h2 class="text-white font-weight-bold mb-4">Need Immediate Assistance?</h2>
             <p class="text-white-75 lead mb-4">Our mobile locksmith team is ready to serve {{ currentLocation?.name }} right now. Emergency response available 24/7.</p>
             <div class="d-flex flex-wrap gap-3 justify-content-center">
-              <a href="tel:215-989-0101" class="btn btn-warning btn-lg px-5 py-3">
-                <i class="fas fa-phone me-2"></i>Call: (215) 989-0101
+              <a href="tel:2679242208" class="btn btn-warning btn-lg px-5 py-3">
+                <i class="fas fa-phone me-2"></i>Call: 2679242208
               </a>
               <RouterLink to="/contact" class="btn btn-outline-light btn-lg px-5 py-3">
                 Request Service

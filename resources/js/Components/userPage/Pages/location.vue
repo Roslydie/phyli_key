@@ -68,7 +68,7 @@
                 <li><i class="fas fa-check text-warning me-3"></i>Lock Repairs & Installation</li>
                 <li><i class="fas fa-check text-warning me-3"></i>24/7 Emergency Response</li>
               </ul>
-              <a href="tel:215-989-0101" class="btn btn-warning btn-lg mt-4">Call Now: (215) 989-0101</a>
+              <a href="tel:2679242208" class="btn btn-warning btn-lg mt-4">Call Now: (215) 989-0101</a>
             </div>
           </div>
           <div class="col-lg-6">

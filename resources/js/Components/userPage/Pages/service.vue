@@ -10,7 +10,7 @@
             <h1 class="hero-title text-white mb-4">Locksmith services built for fast response and trusted protection.</h1>
             <p class="text-white-75 lead mb-4">Whether you need a home lock change, vehicle key replacement, or emergency lockout support, our team arrives quickly with the right tools and honest pricing.</p>
             <div class="d-flex flex-wrap gap-3">
-              <a href="tel:215-989-0101" class="btn btn-warning btn-lg px-5 py-3">Call Now</a>
+              <a href="tel:2679242208" class="btn btn-warning btn-lg px-5 py-3">Call Now</a>
               <a href="#services-section" class="btn btn-outline-light btn-lg px-5 py-3">Browse Services</a>
             </div>
           </div>
@@ -46,8 +46,8 @@
               </RouterLink>
                 <p class="card-text text-muted mb-4">{{ service.description }}</p>
                 <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
-                  <RouterLink :to="{ name: 'user.singleService', params: { id: service.slug } }" class="btn btn-outline-primary btn-sm">Learn More</RouterLink>
-                  <a href="tel:215-989-0101" class="btn btn-warning btn-sm">Call Now</a>
+                  <RouterLink :to="{ name: 'user.singleService', params: { id: service.slug } }" class="btn btn-outline-logo-blue btn-sm">Learn More</RouterLink>
+                  <a href="tel:2679242208" class="btn btn-warning btn-sm">Call Now</a>
                 </div>
               </div>
             </div>
@@ -56,8 +56,8 @@
 
         <div class="row mt-5">
           <div class="col text-center">
-            <a href="/contact#contact-form-section" class="btn btn-primary btn-lg px-5 py-3 me-3">Request Service</a>
-            <a href="tel:215-989-0101" class="btn btn-outline-dark btn-lg px-5 py-3">Speak with us</a>
+            <a href="/contact#contact-form-section" class="btn btn-logo-blue btn-lg px-5 py-3 me-3">Request Service</a>
+            <a href="tel:2679242208" class="btn btn-outline-dark btn-lg px-5 py-3">Speak with us</a>
           </div>
         </div>
       </div>
@@ -75,6 +75,31 @@ const services = ref(locksmithServices)
 </script>
 
 <style scoped>
+
+.btn-outline-logo-blue {
+    color: #061B4F !important;
+    border-color: #061B4F !important;
+    background-color: transparent !important;
+}
+
+.btn-outline-logo-blue:hover,
+.btn-outline-logo-blue:focus {
+    color: #fff !important;
+    background-color: #061B4F !important;
+    border-color: #061B4F !important;
+}
+
+.btn-logo-blue {
+    background-color: #061B4F !important;
+    border-color: #061B4F !important;
+    color: #fff !important;
+}
+
+.btn-logo-blue:hover {
+    background-color: #08276B !important;
+    border-color: #08276B !important;
+    color: #fff !important;
+}
 .hero-services-section {
   background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.85)), url('/assets/img/demos/auto-services/blog/blog-1.jpg') no-repeat center / cover;
   position: relative;
@@ -106,6 +131,8 @@ const services = ref(locksmithServices)
 }
 .card-title {
   font-size: 1.15rem;
+  color: #061B4F;
+  font-weight: 600;
 }
 .card-text {
   color: #6b7280;

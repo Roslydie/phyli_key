@@ -6,7 +6,7 @@
           <i class="ti ti-lock"></i>
         </div>
         <div>
-          <h3>Phili Keys</h3>
+          <h3>Tire and Key Express</h3>
           <p>Admin access</p>
         </div>
       </div>

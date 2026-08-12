@@ -15,7 +15,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-12">
-              {{ new Date().getFullYear() }} © Phili Keys — Admin Panel
+              {{ new Date().getFullYear() }} © Tire and Key Express — Admin Panel
             </div>
           </div>
         </div>

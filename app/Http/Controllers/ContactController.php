@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Contact;
 use Illuminate\Http\Request;
+use App\Mail\ContactMessageMail;
 use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
@@ -12,30 +13,25 @@ class ContactController extends Controller
     {
         return response()->json(Contact::latest()->get());
     }
+public function store(Request $request)
+{
+    $validated = $request->validate([
+        'full_name' => 'required|string|max:255',
+        'email' => 'required|email|max:255',
+        'phone' => 'required|string|max:50',
+        'subject' => 'required|string|max:255',
+        'message' => 'required|string',
+    ]);
 
-    public function store(Request $request)
-    {
-        $validated = $request->validate([
-            'full_name' => 'required|string|max:255',
-            'email' => 'required|email|max:255',
-            'phone' => 'required|string|max:50',
-            'subject' => 'required|string|max:255',
-            'message' => 'required|string',
-        ]);
+    $validated['status'] = 'new';
 
-        $validated['status'] = 'new';
-        $contact = Contact::create($validated);
+    $contact = Contact::create($validated);
 
-        Mail::raw(
-            "Vous avez reçu un nouveau message de contact.\n\nNom: {$contact->full_name}\nEmail: {$contact->email}\nTéléphone: {$contact->phone}\nSujet: {$contact->subject}\n\nMessage:\n{$contact->message}",
-            function ($message) use ($contact) {
-                $message->to('lydieamoussouga@gmail.com')
-                    ->subject('Nouveau message de contact - ' . $contact->subject);
-            }
-        );
+    Mail::to('lydieamoussouga@gmail.com')
+        ->send(new ContactMessageMail($contact));
 
-        return response()->json($contact, 201);
-    }
+    return response()->json($contact, 201);
+}
 
     public function show(Contact $contact)
     {

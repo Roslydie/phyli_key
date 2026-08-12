@@ -4,13 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>PhillyKeyMaster</title>
-       <meta name="keywords" content="WebSite Template">
-		<meta name="description" content="Porto - Multipurpose Website Template">
+        <title>Tire and Key Express</title>
+       <meta name="keywords" content="WebSite">
+		<meta name="description" content="Tire and Key - Auto Services ">
 		<meta name="author" content="okler.net">
 
-       <link rel="shortcut icon" href="{{ asset('admin/images/logo2.png') }}" type="image/png">
-		<link rel="apple-touch-icon" href="{{ asset('admin/images/logo2.png') }}">
+<link rel="icon" type="image/png" href="{{ asset('admin/images/logo_update.png') }}?v={{ time() }}">
+        <link rel="shortcut icon" href="{{ asset('admin/images/logo_update.png') }}?v={{ time() }}" type="image/png">
+        <link rel="apple-touch-icon" href="{{ asset('admin/images/logo_update.png') }}?v={{ time() }}">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -44,7 +45,7 @@
 		<!-- Theme Custom CSS -->
 		<link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
 		<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    @vite('resources/js/app.js')
     </head>
     <body>
         <div id="app"></div>

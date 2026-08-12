@@ -1,5 +1,22 @@
 export const locksmithServices = [
   {
+    slug: 'tire-sales-service',
+    title: 'Tire Sales & Installation',
+    image: '/assets/img/demos/auto-services/service6.jpg',
+    shortDescription: 'Quality tires for cars, SUVs, and trucks.',
+    description:
+      'From everyday commuting to highway driving, we offer reliable tire solutions designed to improve safety, comfort, and performance on the road.',
+    detailImage: '/assets/img/demos/auto-services/service6.jpg',
+    highlights: [
+      'New tires for all vehicle types',
+      'Affordable options for every budget',
+      'Professional installation and balancing'
+    ],
+    summary: 'Expert tire sales with dependable installation and road-ready performance.',
+    detailCopy: 'We supply a wide range of quality tires for passenger cars, trucks, SUVs, and commercial vehicles. Whether you need an everyday replacement or improved traction for seasonal driving, we help you choose the right fit for your vehicle and your budget.',
+    extraCopy: 'Our team also handles installation, balancing, and tire checks so you can drive away with the confidence of a proper setup and safer handling.'
+  },
+  {
     slug: 'car-lockout-service',
     title: 'Car Lockout Service',
     image: '/assets/img/demos/auto-services/service1.jpg',
@@ -32,23 +49,6 @@ export const locksmithServices = [
     summary: 'Reliable key duplication and smart key programming for modern vehicles.',
     detailCopy: 'We create and program replacement keys for modern vehicles, including remote fobs, transponder keys, and push-to-start systems. Our mobile service saves you time by completing the work on site instead of sending you to a dealership.',
     extraCopy: 'If your remote has stopped working or your key has been lost, we can provide a fast replacement and ensure it is synced properly to your vehicle.'
-  },
-  {
-    slug: 'house-lockout-service',
-    title: 'House Lockout Service',
-    image: '/assets/img/demos/auto-services/service6.jpg',
-    shortDescription: 'Emergency residential lockout assistance.',
-    description:
-      'Whether you misplaced your keys or your lock has failed, our locksmiths can help you regain access quickly and safely without damaging your doors or frames.',
-    detailImage: '/assets/img/demos/auto-services/service6.jpg',
-    highlights: [
-      'Fast help for lost or locked-in keys',
-      'Damage-free lock opening',
-      'Residential service available day or night'
-    ],
-    summary: 'Professional home lockout assistance with minimal disruption.',
-    detailCopy: 'Our residential lockout service helps homeowners, tenants, and property managers regain access safely without unnecessary force. We arrive quickly and work carefully to protect your doors, frames, and interior finishes.',
-    extraCopy: 'We can also help if your lock is jammed, your key broke inside, or you need a lock change after a move or security concern.'
   },
   {
     slug: 'rekeying-lock-changes',
